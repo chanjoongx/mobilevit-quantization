@@ -1,0 +1,4 @@
+torch>=2.0
+torchvision
+numpy
+matplotlib  # notebook visualization only
