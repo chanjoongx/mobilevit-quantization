@@ -11,9 +11,9 @@ MobileViT combines MobileNetV2 inverted residual blocks with lightweight transfo
 ```
 Input (3×256×256)
   │
-  ├─ Conv 3×3 ↓2           ─── Stem
+  ├─ Conv 3×3 ↓2          ─── Stem
   ├─ MV2                   ─── Stage 1 (stride 1)
-  ├─ MV2↓2 → MV2 → MV2     ─── Stage 2 (stride 2)
+  ├─ MV2↓2 → MV2 → MV2    ─── Stage 2 (stride 2)
   ├─ MV2↓2 → MobileViT     ─── Stage 3 (L=2 transformer layers)
   ├─ MV2↓2 → MobileViT     ─── Stage 4 (L=4)
   ├─ MV2↓2 → MobileViT     ─── Stage 5 (L=3)
@@ -130,4 +130,4 @@ matplotlib
 
 ## License
 
-MIT
+[MIT](LICENSE)
